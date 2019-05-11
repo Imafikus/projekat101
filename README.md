@@ -30,7 +30,11 @@ Dakle, da rezimiramo. Dve vrlo bitne komponente dobrog projekat su dobra hipotez
 
 ### *"Ja bih da pravim program"*
 
-Polaznici (a posebno novi polaznici) često mešaju 
+Polaznici (a posebno novi polaznici) često mešaju pravljenje programa koji radi nešto i programa koji **pokazuje** nešto novo - AKA eksperimenta.
+
+Možda zvuči grubo, ali ako je vama neka stvar nova, ne znači da ona nije opštepoznata i da ne postoji 1001 standardni način na koji se to što hoćete radi. Tako da, ako vam padne na pamet da predložite nekakav specifičan program za projekat, obavezno proverite da li to već ne postoji (spoiler alert: verovatno postoji).
+
+Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istražvačku komponentu koja je potrebna da bi bili naučni projekat.
 
 ### *"Ja bih da radim neki ML"*
 
