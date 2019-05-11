@@ -6,7 +6,27 @@ Svake godine više od 80% projekata na seminaru Računarstva propadne. Većina o
 
 Kada birate projekat, prva stvar koju gledate je da uzmete stvar koja vas zaista interesuje, nemojte se voditi *"samo da imam nešto"* i *"samo da odem na konferenciju"*  motivima jer će vam biti dosadno i naporno, a ne zabavno.  
 
-### Šta je u stvari dobar  projekat?
+### Šta je u stvari dobar projekat
+
+Vaš projekat će u 99% slučajeva biti eksperimentalnog tipa, iako to možda nije očigledno na prvi pogled. Ovo zvuči čudno ljudima, jer kad se kaže da se radi eksperiment, obično se prvo pomisli na laboratoriju sa gomilom nekih aparatura i instrumenata za merenje.
+
+Vaš eksperiment će biti program uz pomoć kojeg ćete na neki način izmeriti i proveriti vašu hipotezu, što je sledeća vrlo bitna stvar.
+
+#### Hipoteza
+
+Hipoteza je zapravo srž vašeg projekta. To je nekakvo tvrđenje koje pokušavate da pokažete eksperimentalnim putem (tj. programom).  
+
+Hipoteza mora da bude zasnovana na nekim činjenicama, ne može samo "da vam padne sa neba". Potrebno je da izložite zbog čega mislite da će vaša hipoteza važiti (odnosno neće).
+
+#### Reference
+
+Da bi krenuli da se bavite nekim problem, prva stvar koju treba da uradite je da proverite da li se neko drugi pre vas nije bavio istim, ili možda nečim sličnim.  
+
+Ovo je jako bitno, jer se često dešava da je ono što hoćete da uradite jako poznata stvar i da nema smisla raditi je ponovo. A može se desiti i da je problem obrađivan, samo drugačijim metodama, pa odmah dobijate način da izmerite koliko je npr. neka vaša metoda bolja / gora od postojećih. Ovakva vrsta projekta je veoma česta na računarstvu.
+
+Druga stvar kod kojih su reference bitne je to što možete (a često i morate) da se pozivate na njih. To pokazuje da ste zapravo istraživali nešto o problemu, a često ćete koristiti neke metode koje su opisane u referencama ili ćete se oslanjati na neke osobine za koje je u nekom drugom radu pokazano da važe.
+
+Dakle, da rezimiramo. Dve vrlo bitne komponente dobrog projekat su dobra hipoteza i reference koje podržavaju vašu hipotezu. Bez ta dva se ne može.
 
 ### *"Ja bih da pravim program"*
 
