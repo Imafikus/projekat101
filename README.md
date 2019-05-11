@@ -6,6 +6,12 @@ Svake godine više od 80% projekata na seminaru Računarstva propadne. Većina o
 
 Kada birate projekat, prva stvar koju gledate je da uzmete stvar koja vas zaista interesuje, nemojte se voditi *"samo da imam nešto"* i *"samo da odem na konferenciju"*  motivima jer će vam biti dosadno i naporno, a ne zabavno.  
 
+### Šta je u stvari dobar  projekat?
+
+### *"Ja bih da pravim program"*
+
+Polaznici (a posebno novi polaznici) često mešaju 
+
 ### *"Ja bih da radim neki ML"*
 
 Svake godine (ili svakih par godina) u računarstvu postoji neka *state-of-the-art* tehnologija koja je postala izuzetno popularna i sasvim je normalno da želite da radite projekat koji ima veze sa njom.  
@@ -15,3 +21,4 @@ Tako da, ako želite da radite na ovakvim projektima, dobro razmislite da li je 
 
 Jer, nije isto zvati `.train()` funkciju iz biblioteke i napisati tu istu funkciju da radi bolje (po kom god parametru).
 
+### Razumevanje
