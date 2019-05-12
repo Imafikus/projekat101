@@ -24,7 +24,7 @@ Da bi krenuli da se bavite nekim problem, prva stvar koju treba da uradite je da
 
 Ovo je jako bitno, jer se često dešava da je ono što hoćete da uradite jako poznata stvar i da nema smisla raditi je ponovo. A može se desiti i da je problem obrađivan, samo drugačijim metodama, pa odmah dobijate način da izmerite koliko je npr. neka vaša metoda bolja / gora od postojećih. Ovakva vrsta projekta je veoma česta na računarstvu.
 
-Druga stvar kod kojih su reference bitne je to što možete (a često i morate) da se pozivate na njih. To pokazuje da ste zapravo istraživali nešto o problemu, a često ćete koristiti neke metode koje su opisane u referencama ili ćete se oslanjati na neke osobine za koje je u nekom drugom radu pokazano da važe.
+Druga stvar zbog kojih su reference bitne je to što morate da se pozivate na njih. To pokazuje da ste zapravo istraživali nešto o problemu, a često ćete koristiti neke metode koje su opisane u referencama ili ćete se oslanjati na neke osobine za koje je u nekom drugom radu pokazano da važe.
 
 Dakle, da rezimiramo. Dve vrlo bitne komponente dobrog projekat su dobra hipoteza i reference koje podržavaju vašu hipotezu. Bez ta dva se ne može.
 
@@ -34,7 +34,7 @@ Polaznici (a posebno novi polaznici) često mešaju pravljenje programa koji rad
 
 Možda zvuči grubo, ali ako je vama neka stvar nova, ne znači da ona nije opštepoznata i da ne postoji 1001 standardni način na koji se to što hoćete radi. Tako da, ako vam padne na pamet da predložite nekakav specifičan program za projekat, obavezno proverite da li to već ne postoji (spoiler alert: verovatno postoji).
 
-Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istražvačku komponentu koja je potrebna da bi bili naučni projekat.
+Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istraživačku komponentu koja je potrebna da bi bili naučni projekat.
 
 ### *"Ja bih da radim neki ML"*
 
@@ -46,3 +46,14 @@ Tako da, ako želite da radite na ovakvim projektima, dobro razmislite da li je 
 Jer, nije isto zvati `.train()` funkciju iz biblioteke i napisati tu istu funkciju da radi bolje (po kom god parametru).
 
 ### Razumevanje
+
+Ova stvar se direktno nadovezuje na priču iznad. Ne možete da uradite projekat ako to što radite ne razumete.  
+
+Najveći problem je što za ovo "razumevanje" nema vremena na letnjem seminaru.  
+Kada dođete na letnji seminar podrazumeva se da vam je bar nekih 80% toga što radite jasno. 
+
+Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, a saradnici koje ste mogli da cimate pre seminara preko mejla / fejsa / nečeg levog ili nisu tu, ili će većinu vremena morati da pomažu i drugim polaznicima. 
+
+## Znanje programiranja
+
+## Tehničke stvari
