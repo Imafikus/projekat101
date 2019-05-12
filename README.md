@@ -52,7 +52,7 @@ Ova stvar se direktno nadovezuje na priču iznad. Ne možete da uradite projekat
 Najveći problem je što za ovo "razumevanje" nema vremena na letnjem seminaru.  
 Kada dođete na letnji seminar podrazumeva se da vam je bar nekih 80% toga što radite jasno. 
 
-Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, a saradnici koje ste mogli da cimate pre seminara preko mejla / fejsa / nečeg levog ili nisu tu, ili će većinu vremena morati da pomažu i drugim polaznicima. 
+Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, jer saradnici koje ste mogli da cimate pre seminara preko mejla / fejsa / nečeg levog ili nisu tu, ili će većinu vremena morati da pomažu i drugim polaznicima. 
 
 ## Znanje programiranja
 
