@@ -50,10 +50,16 @@ Jer, nije isto zvati `.train()` funkciju iz biblioteke i napisati tu istu funkci
 Ova stvar se direktno nadovezuje na priču iznad. Ne možete da uradite projekat ako to što radite ne razumete.  
 
 Najveći problem je što za ovo "razumevanje" nema vremena na letnjem seminaru.  
-Kada dođete na letnji seminar podrazumeva se da vam je bar nekih 80% toga što radite jasno. 
+Kada dođete na letnji seminar podrazumeva se da vam je bar nekih 80% toga što radite jasno.
 
-Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, jer saradnici koje ste mogli da cimate pre seminara preko mejla / fejsa / nečeg levog ili nisu tu, ili će većinu vremena morati da pomažu i drugim polaznicima. 
+Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, jer saradnici koje ste mogli da cimate pre seminara preko mejla / fejsa / nečeg levog ili nisu tu, ili će većinu vremena morati da pomažu i drugim polaznicima.
 
 ## Znanje programiranja
+
+Ovo je još jedna od stvari na koji ljudi ne obrate dovoljno pažnje. Niko od vas ne traži da posedujete znanje programiranja kada dođete na seminar,niti vam je ono suštinski potrebno da razumete predavanja.
+
+Ipak, ako krenemo od toga da će vaš rad biti zasnovan upravo na nekom programu pomoću kog ćete vi raditi vađe istraživanje, tada dolazimo do problema ako vi ne znate bar osnovne stvari koje se tiču programiranja.
+
+Zašto je ovo problem? - Problem je jer ćete vi tih 10ak dana koliko ste na seminaru provesti u učenju nekog programskog jezika, i provaljivanju kako se rade jako rutinske i jako tehničke stvari, a nećete se zapravo baviti vašim problemom. Dakle, **programiranje se ne uči na letnjem seminaru.**
 
 ## Tehničke stvari
