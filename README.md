@@ -68,6 +68,12 @@ Ovaj deo će biti posvećen tehničkim aspektima projekta. Ovo je deo na kom zag
 
 ### Planiranje projekta
 
+Pre nego što uopšte pipnete programski kod, trebalo bi da isplanirate šta ćete i kako ćete da radite.
+
+Za početak, bar da vidite ugrubo od kojih logičkih celina će da se sastoji vaš projekat i šta vam eventualno treba od *third-party* biblioteka.
+
+Kad odradite ovo, tek onda treba da gledate u kom programskom jeziku je najbolje raditi projekat (obično u kom god najviše radite).
+
 ### Odabir programskog jezika
 
 Ovo je prva stvar koju treba da uradite kada završite sa planiranjem.
@@ -78,5 +84,6 @@ Druga stvar o kojoj treba da razmislite je šta će tačno vaš program raditi. 
 
 Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer sasvim lepe standardne pakete koji služe baš za to, dok C nema toliko dobru podršku. Obrnuto, ako želite da se bavite nekim mikrokontrolerima čija se memorija meri u kilobajtima, C vam može biti jedina opcija.
 
-O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koja vam može biti korisna.
+O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koja vam automatizuje nešto što vas smara da radite.
 
+### Čuvanje rezultata
