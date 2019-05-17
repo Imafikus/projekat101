@@ -63,3 +63,20 @@ Ipak, ako krenemo od toga da će vaš rad biti zasnovan upravo na nekom programu
 Zašto je ovo problem? - Problem je jer ćete vi tih 10ak dana koliko ste na seminaru provesti u učenju nekog programskog jezika, i provaljivanju kako se rade jako rutinske i jako tehničke stvari, a nećete se zapravo baviti vašim problemom. Dakle, **programiranje se ne uči na letnjem seminaru.**
 
 ## Tehničke stvari
+
+Ovaj deo će biti posvećen tehničkim aspektima projekta. Ovo je deo na kom zaglavi dosta polaznika i upravo zbog tehničkih stvari ne završi projekat.
+
+### Planiranje projekta
+
+### Odabir programskog jezika
+
+Ovo je prva stvar koju treba da uradite kada završite sa planiranjem.
+
+Na odabir programskog jezika pre svega treba da utiče činjenica koji programski jezik znate, jer se većina projekata može uraditi manje-više u bilo kom *general-purpose* jeziku.
+
+Druga stvar o kojoj treba da razmislite je šta će tačno vaš program raditi. Jer je su za određene stvari određeni jezici bolji.
+
+Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer sasvim lepe standardne pakete koji služe baš za to, dok C nema toliko dobru podršku. Obrnuto, ako želite da se bavite nekim mikrokontrolerima čija se memorija meri u kilobajtima, C vam može biti jedina opcija.
+
+O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koja vam može biti korisna.
+
