@@ -87,3 +87,18 @@ Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer sasvim lepe s
 O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koja vam automatizuje nešto što vas smara da radite.
 
 ### Čuvanje rezultata
+
+Gotovo svi polaznici nekako smetnu sa uma da su njima rezultati zapravo najvažniji deo celog projekta i generalno ne vode previše računa šta rade sa njima.
+
+Dakle, ceo vaš fensi program uglavnom služi za to da vam u neki .txt fajl upiše neki output koji pokazuje nešto. To nešto su uglavnom neki brojevi, procenti uspešnosti, ili nešto slično...
+
+Ako ne sačuvate ove fajlove, **vi nemate projekat.**
+
+Takođe, ako postoji više verzija projekta koji vam daju rezultate, veoma je važno da imate sačuvane rezultate za svaku verziju.
+
+**REZULTATE NIKAD NEMOJTE DA ČUVATE SAMO LOKALNO**
+
+Dakle, neki Google Drive, GitHub, bilo koji cloud hosting. Niste svesni koliko je teško iskopati rezultate kada se za par nedelja vratite projektu. Ili, ako vam na random crkne hard. 
+
+Rezultate čuvajte u lepom formatu, sa lepim imenima i kategorizovane tako da vam je, kada se za par nedelja od završetka letnjeg seminara setite da bi trebalo da nastavite da radite na projektu, bilo lako da odmah nađete rezultate i vidite šta vam koji rezultati pokazuju.
+
