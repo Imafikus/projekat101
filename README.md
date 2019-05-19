@@ -32,7 +32,7 @@ Dakle, da rezimiramo. Dve vrlo bitne komponente dobrog projekat su dobra hipotez
 
 Polaznici (a posebno novi polaznici) često mešaju pravljenje programa koji radi nešto i programa koji **pokazuje** nešto novo - AKA eksperimenta.
 
-Možda zvuči grubo, ali ako je vama neka stvar nova, ne znači da ona nije opštepoznata i da ne postoji 1001 standardni način na koji se to što hoćete radi. Tako da, ako vam padne na pamet da predložite nekakav specifičan program za projekat, obavezno proverite da li to već ne postoji (spoiler alert: verovatno postoji).
+Možda zvuči grubo, ali ako je vama neka stvar nova, ne znači da ona nije opštepoznata i da ne postoji 1001 standardni način na koji se to što hoćete radi. Tako da, ako vam padne na pamet da predložite nekakav specifičan program za projekat, obavezno proverite da li to već postoji (spoiler alert: verovatno postoji).
 
 Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istraživačku komponentu koja je potrebna da bi bili naučni projekat.
 
@@ -56,11 +56,13 @@ Ako ovo nije slučaj, često nećete imati vremena da uradite bilo šta, jer sar
 
 ## Znanje programiranja
 
-Ovo je još jedna od stvari na koji ljudi ne obrate dovoljno pažnje. Niko od vas ne traži da posedujete znanje programiranja kada dođete na seminar,niti vam je ono suštinski potrebno da razumete predavanja.
+Ovo je još jedna od stvari na koji ljudi ne obrate dovoljno pažnje. Niko od vas ne traži da posedujete znanje programiranja kada dođete na seminar, niti vam je ono suštinski potrebno da razumete predavanja.
 
 Ipak, ako krenemo od toga da će vaš rad biti zasnovan upravo na nekom programu pomoću kog ćete vi raditi vađe istraživanje, tada dolazimo do problema ako vi ne znate bar osnovne stvari koje se tiču programiranja.
 
 Zašto je ovo problem? - Problem je jer ćete vi tih 10ak dana koliko ste na seminaru provesti u učenju nekog programskog jezika, i provaljivanju kako se rade jako rutinske i jako tehničke stvari, a nećete se zapravo baviti vašim problemom. Dakle, **programiranje se ne uči na letnjem seminaru.**
+
+Nemojte ovo da shvatite kao neku vrstu pretnje, naravno da se od vas ne očekuje da ćete znati sve i da će sve ići glatko. Saradnici će biti tu da vam pomognu gde god da zapnete.
 
 ## Tehničke stvari
 
@@ -82,9 +84,9 @@ Na odabir programskog jezika pre svega treba da utiče činjenica koji programsk
 
 Druga stvar o kojoj treba da razmislite je šta će tačno vaš program raditi. Jer je su za određene stvari određeni jezici bolji.
 
-Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer sasvim lepe standardne pakete koji služe baš za to, dok C nema toliko dobru podršku. Obrnuto, ako želite da se bavite nekim mikrokontrolerima čija se memorija meri u kilobajtima, C vam može biti jedina opcija.
+Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer ima sasvim lepe standardne pakete koji služe baš za to, dok C nema toliko dobru podršku. Obrnuto, ako želite da se bavite nekim mikrokontrolerima čija se memorija meri u kilobajtima, C vam može biti jedina opcija.
 
-O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koja vam automatizuje nešto što vas smara da radite.
+O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koji vam automatizuje nešto što vas smara da radite.
 
 ### Čuvanje rezultata
 
@@ -102,3 +104,29 @@ Dakle, neki Google Drive, GitHub, bilo koji cloud hosting. Niste svesni koliko j
 
 Rezultate čuvajte u lepom formatu, sa lepim imenima i kategorizovane tako da vam je, kada se za par nedelja od završetka letnjeg seminara setite da bi trebalo da nastavite da radite na projektu, bilo lako da odmah nađete rezultate i vidite šta vam koji rezultati pokazuju.
 
+Još jedna stvar zbog koje je bitna kategorizacija je da bi bili sigurni koji rezultati su oni koje ćete konačno prikazati u radu. Projekat koji nema validne rezultate nije projekat.
+
+Nikako nemojte čuvati samo grafike, ili slike, ili šta god. **Uvek čuvajte sirove podatke**. Grafici koje vi nacrtate i stavite u vašu verziju rada koju šaljete na reviziju se uglavnom ne koriste kada je vreme da se rad spremi u "spakuje" u petničku svesku, nego će vam se skoro uvek samo tražiti sirovi podaci. Ovo se radi kako bi se napravili grafici boljeg kvaliteta od onih koje ste vi stavili (uglavnom je potreban veći *dpi* da bi to izgledalo lepo kad se odštampa).  
+
+Druga problematična stvar kod nečuvanja sirovih podataka je što onda dolazite u situaciju da neko vama treba da veruje na reč da je vama slika koju ste stavili merodavna i da zaista prikazuje dobijeni rezultat.
+
+## Programiranje - Tricks & Tips
+
+Kako je programiranje ono što vama suštinski uzima najveći deo vremena kod izrade projekta, ovaj deo će biti posvećen tome da vam pokaže i ukaže neke stvari koje će vaš programerski život učiniti dosta srećnijim.
+
+### Source Control
+
+Prva stvar o kojoj pričamo je *Source Control*. Verujem da su neki od vas već krenuli da uzdišu, ali ovo je jedan od krucijalnih alata koji se koristi svuda, pa ne postoji neki racionalan razlog da ga i vi ne koristite. Ako planirate da se profesionalno bavite bilo čim što ima veze sa programiranjem, **podrazumevaće** se da znate ovo.
+
+#### Kako radi source control
+
+Na *source control* možete da gledate kao na alat koji bukvalno pravi *snapshot* koda vašeg programa. Svaki ovaj *snapshot* se čuva, i svakom možete da se vratite.  
+Još jedna bitna stvar, ti *snapshotovi* se čuvaju i kod vas i na nekom serveru, tako da vi automatski dobijate *backup* vašeg programa i mogućnost da isti taj program svučete na bilo koji računar koji ima instaliran *source control*.
+
+Možda niste svesni, ali gomila vas već koristi "primitivni" *source control* koji podrazumeva da vi vaš kod snimite na neki fleš, ili pošaljete sebi na mejl ili kao poruku na fejsu / vocapu / nečem trećem. Ovo radite upravo jer želite da sačuvate nekakve verzije vašeg programa.
+
+Source control samo olakšava ovo.
+
+#### Git
+
+#### Korisni linkovi
