@@ -125,8 +125,48 @@ Još jedna bitna stvar, ti *snapshotovi* se čuvaju i kod vas i na nekom serveru
 
 Možda niste svesni, ali gomila vas već koristi "primitivni" *source control* koji podrazumeva da vi vaš kod snimite na neki fleš, ili pošaljete sebi na mejl ili kao poruku na fejsu / vocapu / nečem trećem. Ovo radite upravo jer želite da sačuvate nekakve verzije vašeg programa.
 
-Source control samo olakšava ovo.
+Source control samo olakšava ovo. Takođe, još jedna bitna prednost je što možete čuvati i sve dobijene rezultate, i čak i da se desi da zagubite starije rezultate ili vam se zapali komp recimo, uvek možete da pristupite svim *commitovanim* verzijama.
 
 #### Git
 
+Najpoznatiji i najkorišćeniji *source control*. Sigurno ste čuli za [GitHub](https://github.com/) ili [GitLab](https://github.com/). Postoji još gomila drugih koji ispod haube koriste git. Takođe, najčešće korišćen u industriji.
+
+Druga bitna stvar, koja uopšte nema veze sa projektom. Ako budete tražili posao (posebno prvi posao) profil na nekom od ovakvih sajtova izuzetno znači, jer to pokazuje da ste vi nešto radili i činjenica da li imate ili nemate git repoe koje neko može da pogleda će da pravi razliku između toga da li će vas zvati ili ne.
+
 #### Korisni linkovi
+
+- [Introduction to Git](https://www.youtube.com/watch?v=OqmSzXDrJBk)
+- [Understanding Git](https://hackernoon.com/understanding-git-fcffd87c15a3)
+
+### Pisanje koda
+
+Stvari o kojima ćemo pričati ovde vas skoro sigurno smaraju, i gomila vas misli da su gubljenje vremena. Ja ću da pokušam da vam objasnim zašto to ipak nije tačno.
+
+Dakle, rešili ste šta radite za projekat, imate plan, i došlo je vreme za pisanje koda. Baš zbog ovog pisanja koda propadne lep broj projekata. Ispod su kao mala poglavlja date neke česte greške koje se dešavaju u ovom procesu.
+
+#### Imenovanje promenljivih
+
+Koliko god vama ovo banalno zvučalo, dobro imenovanje unutar koda je jedna od najvažnijih stvari koje treba da naučite.  
+
+Zašto je ovo bitno, i zašto vas smaramo oko ovoga? - Bitno je jer ćete vi sigurno u nekom trenutku posle pisanja ključnih delova koda morati da se vratite istom tom kodu (iz kog god razloga).
+
+Takođe, verovatno će vam u nekom trenutku trebati pomooć oko debagovanja, a tu će vam pomagati ljudi koji verovatno prvi put u životu prolaze detaljno kroz vaš kod. E, u ovakvim slučajevima dolazimo do zanimljivih situacija.
+
+Razlika između:
+
+```
+cc = s.c i currentCoef = simulation.coef
+
+ili:
+
+d(): i drawScreen():
+
+````
+
+**je ogromna**
+
+Prva stvar koju eliminišete dobrim imenovanjem je razmišljanje potrebno da se skonta šta piše u liniji koda. Druga stvar, koju dobijate, je beskonačno puta lakše debagovanje i promene koda, jer vam bukvalno piše šta se dešava.
+
+Pretpostavimo sledeću situaciju: Bili ste na letnjem seminaru, odmah posle ste otišli na letovanje, i treba da doradite par stvari kada dođete. Dakle, 10 dana ne vidite komp. Razmislite kada će vam biti lakše da se "vratite" u kod, kada imate deskriptivna imena, ili kada imate 1 ili 2 slova na sve strane.
+
+Takođe, nečitljiv kod vam niko neće debagovati, jer je samo potrebno previše vremena da bi se uopšte shvatilo šta se događa u kodu, da bi tek onda moglo i nešto da se izdebaguje.
