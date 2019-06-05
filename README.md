@@ -137,6 +137,7 @@ Druga bitna stvar, koja uopšte nema veze sa projektom. Ako budete tražili posa
 
 - [Introduction to Git](https://www.youtube.com/watch?v=OqmSzXDrJBk)
 - [Understanding Git](https://hackernoon.com/understanding-git-fcffd87c15a3)
+- [Git Cheatsheet](https://www.git-tower.com/blog/git-cheat-sheet)
 
 ### Pisanje koda
 
