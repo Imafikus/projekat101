@@ -86,7 +86,7 @@ Druga stvar o kojoj treba da razmislite je šta će tačno vaš program raditi. 
 
 Npr. Ako radite neku obradu teksta, dobar izbor bi bio Python, jer ima sasvim lepe standardne pakete koji služe baš za to, dok C nema toliko dobru podršku. Obrnuto, ako želite da se bavite nekim mikrokontrolerima čija se memorija meri u kilobajtima, C vam može biti jedina opcija.
 
-O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koji vam automatizuje nešto što vas smara da radite.
+O ovome treba da odlučite pre nego što dođete na seminar i, ako se odlučite za jezik sa kojim niste upoznati, krenete da vežbate pisanje koda. Najbolja vežba za ovakve stvari je da osmislite i napravite neki mali program koji radi neku stvar koja vam je kul, ili koji vam automatizuje nešto što vas smara da radite. **Novi programski jezik ne učite na seminaru.**
 
 ### Čuvanje rezultata
 
@@ -106,13 +106,12 @@ Rezultate čuvajte u lepom formatu, sa lepim imenima i kategorizovane tako da va
 
 Još jedna stvar zbog koje je bitna kategorizacija je da bi bili sigurni koji rezultati su oni koje ćete konačno prikazati u radu. Projekat koji nema validne rezultate nije projekat.
 
-Nikako nemojte čuvati samo grafike, ili slike, ili šta god. **Uvek čuvajte sirove podatke**. Grafici koje vi nacrtate i stavite u vašu verziju rada koju šaljete na reviziju se uglavnom ne koriste kada je vreme da se rad spremi u "spakuje" u petničku svesku, nego će vam se skoro uvek samo tražiti sirovi podaci. Ovo se radi kako bi se napravili grafici boljeg kvaliteta od onih koje ste vi stavili (uglavnom je potreban veći *dpi* da bi to izgledalo lepo kad se odštampa).  
-
+Nikako nemojte čuvati samo grafike, ili slike, ili šta god. **Uvek čuvajte sirove podatke**. Grafici koje vi nacrtate i stavite u vašu verziju rada koju šaljete na reviziju se uglavnom ne koriste kada je vreme da se rad spremi i "spakuje" u petničku svesku, nego će vam se skoro uvek samo tražiti sirovi podaci. Ovo se radi kako bi se napravili grafici boljeg kvaliteta od onih koje ste vi stavili (uglavnom je potreban veći *dpi* da bi to izgledalo lepo kad se odštampa).  
 Druga problematična stvar kod nečuvanja sirovih podataka je što onda dolazite u situaciju da neko vama treba da veruje na reč da je vama slika koju ste stavili merodavna i da zaista prikazuje dobijeni rezultat.
 
 ## Programiranje - Tricks & Tips
 
-Kako je programiranje ono što vama suštinski uzima najveći deo vremena kod izrade projekta, ovaj deo će biti posvećen tome da vam pokaže i ukaže neke stvari koje će vaš programerski život učiniti dosta srećnijim.
+Kako je programiranje ono što vama suštinski uzima najveći deo vremena kod izrade projekta, ovaj deo će biti posvećen tome da vam pokaže i ukaže na neke stvari koje će vaš programerski život učiniti dosta srećnijim, a i lakšim.
 
 ### Source Control
 
@@ -125,7 +124,7 @@ Još jedna bitna stvar, ti *snapshotovi* se čuvaju i kod vas i na nekom serveru
 
 Možda niste svesni, ali gomila vas već koristi "primitivni" *source control* koji podrazumeva da vi vaš kod snimite na neki fleš, ili pošaljete sebi na mejl ili kao poruku na fejsu / vocapu / nečem trećem. Ovo radite upravo jer želite da sačuvate nekakve verzije vašeg programa.
 
-Source control samo olakšava ovo. Takođe, još jedna bitna prednost je što možete čuvati i sve dobijene rezultate, i čak i da se desi da zagubite starije rezultate ili vam se zapali komp recimo, uvek možete da pristupite svim *commitovanim* verzijama.
+*Source control* samo olakšava ovo. Takođe, još jedna bitna prednost je što možete čuvati i sve dobijene rezultate, i čak i da se desi da zagubite starije rezultate ili vam se zapali komp recimo, uvek možete da pristupite svim *commitovanim* verzijama.
 
 #### Git
 
@@ -171,3 +170,49 @@ Prva stvar koju eliminišete dobrim imenovanjem je razmišljanje potrebno da se 
 Pretpostavimo sledeću situaciju: Bili ste na letnjem seminaru, odmah posle ste otišli na letovanje, i treba da doradite par stvari kada dođete. Dakle, 10 dana ne vidite komp. Razmislite kada će vam biti lakše da se "vratite" u kod, kada imate deskriptivna imena, ili kada imate 1 ili 2 slova na sve strane.
 
 Takođe, nečitljiv kod vam niko neće debagovati, jer je samo potrebno previše vremena da bi se uopšte shvatilo šta se događa u kodu, da bi tek onda moglo i nešto da se izdebaguje.
+
+#### Nekorišćenje pomoćnih funkcija
+
+Česta stvar na koju se nailazi kada polaznici pitaju za pomoć je projekat koji se sastoji iz par ogromnih funkcija ili, još gore, od jednog fajla sa jednom jedinom funkcijom.
+
+Zašto je ovo problem? - Kod koji ćete pisati za projekat uglavnom je dosta složeniji od koda za, recimo izračuvananje površine trougla, i sigurno se sastoji iz više logičkih celina. Svaka logička celina ima jedan specifičan zadatak koji treba da uradi, predstavoću to na primeru obrade slike.
+
+Hoćemo da učitamo sliku, da obojimo sve crne piksele u belo, da rotiramo sliku, i da na kraju sliku prebacimo u grayscale. Ovde odmah primećujemo par odvojenih logičkih celina:
+- Učitavanje slike
+- Pretvaranje crnih piksela u bele
+- Rotiranje slike
+- Prebacivanje slike u grayscale
+
+Česta situacija na koju se nailazi je da je ceo ovaj logički tok zabijen u jednu funkciju. Ovo je izuzetno loša praksa jer vam na više načina otežava život:
+
+- Funkcija je ogromna i teško je ispratiti šta se dešava
+- Nešto ne radi, ne znate što, i treba da degabujete
+
+Upravo zbog ove druge tačke vas toliko smaramo kad vidimo ovakve stvari. Kada imate manje funkcije, pre nego što sklopite ceo tok programa, možete **zasebno da testirate svaki deo**. Ovako ćete izbeći stuacije gde ste sve nakucali i tek onda krenuli da testirate (što je u principu i jedini način kada imate ogromnu funkciju) i odmah ćete znati gde vam je greška. Ovakvo pisanje koda je jedno od većih krivaca zašto projekti ne budu završeni na vreme - napišete par hiljada linija koda koji niste sigurni da li radi, a roknuli ste ga u jednu funkciju, i kada dođe vreme da se testira nemate apsolutno pojma šta je problem.
+
+**Zapamtite: Funkcija treba da radi samo jednu, tačno određenu stvar!**
+
+#### Monolitan kod 
+
+Ovo se nadovezuje, a često i ide u paru sa ovim iznad. Recimo da vam program ima više većih logičkih celina. Na primer treba da iscrtate nešto na obrađenoj slici i da onda sa te slike isčitate piksele i da gledate neku raspodelu ili da tražite neku korelaciju, jasno se vide 3 celine:
+- Učitavanje i obrada slike
+- Iscrtavanje poligona 
+- Statistička obrada
+
+Najgora stvar koju možete da uradite je da sve, kao i kod tačke gore, zabijete u jedan fajl. Što više vežih logičkih celina imate to će vam složenost debagovanja rasti, i ako ne podelite kod na vreme, nećete ga izdebagovati nikad.
+
+#### Koristite papir
+
+~~Mnogi~~ Svi relativno novi programeri bi odmah da sednu i da kucaju. I to je donekle opravdano, ali ne i dobro, posebno ako radite na nečemu što ima više od 100 linija koda.
+
+Prva stvar koju treba da uradite je da se dohvatite (digitalnog) papira i da ugrubo napišete / iscrtkate logiku vašeg programa i da zatim pokušate da sagledate čitavu celinu. U trenutku kada ovo pišete nije bitno da li znate kako tačno ćete implementirati to što ste napisali, bitno je da znate **šta to treba da radi**
+
+Ako na ovaj način osmislite strukturu vašeg koda, uvek ćete imati čemu da se vratite ako mislite da ste se izgubili u razmišljanju ili programiranju.
+
+Još jedna super stvar kod ovoga je što se odlično skalira, tj. kako ste napravili dijagrame i logiku za ceo projekat, tako sada možete krenuti u detaljnije definisanje manjih celina tog projekta prateći sličan princip.
+
+Sa ovim treba stati kada vidite da je sva usitnjenja logika koju ste upisali dovoljno prosta da stane u funkciju koja će raditi samo to.
+
+Kul programi koji vam mogu koristiti za pravljenje dijagrama: 
+- [Draw.io](https://www.draw.io/)
+- [Lucidchart](https://www.lucidchart.com/)
