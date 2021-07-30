@@ -238,3 +238,26 @@ Neki od tipičnih alata koji se koriste za ove stvari:
 - [Jira](https://www.atlassian.com/software/jira)
 - [Trello](https://trello.com/)
 - [GitLab Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html)
+
+## Kako od maglovite ideje do ful projekta (Nikola Bebić)
+
+Gotovo svi projekti koji su do sada (uspešno) odrađeni na računarstvu (pa verovatno i u Petnici generalno) se mogu ugrubo svrstati u 3 kategorije:
+
+- primena rešenja iz **jednog** domena na **drugi** problemski domen
+- **prilagođavanje** opšteg rešenja na **specifičan** problemski poddomen
+- unapređivanje / izmena postojećeg rešenja problema
+
+U prvu kategoriju spadaju projekti koji ideje iz jednog problemskog domena primenjuju na neki drugi, ili malo uopštenije, rešavaju neki postojeći problem na nov način. Primer ovakvog projekta bi bio simulacija kretanja fluida pomoću celularnih automata (Nožinić, 2015). U tom projektu ideja iz jedne oblasti (celularni automati) korišćena je za rešavanje drugog problema - simulacije fluida.
+Kod njih je hipoteza prosto da će to rešenje davati zadovoljavajuće rezultate, da li zbog sličnosti dva domena, ili zbog nekih drugih faktora.
+
+U drugu kategoriju spadaju projekti koji uzimaju opšte rešenje za neki opšti problem, i prilagođavaju ga nekim specifičnostima podproblema koji se posmatra. Tu se pretpostavlja da će rezultati biti znatno bolji, uz odgovarajući *trade-off* (vreme predprocesiranja, ...). Primeri ovakvih projekata su obično *computer vision* projekti, kod kojih se opšti "alati" kojima CV raspolaže primenjuju na konkretan problem (traženje meteora na noćnom nebu (Gavrić, 2016), procena oblačnosti (Tešić, 2016), ...).
+
+U treću kategoriju (koja se donekle može smatrati podvrstom ove druge) ulaze oni projekti koji pokušavaju da unaprede postojeći algoritam / rešenje za neki problem. Primeri bi bili unapređivanje WiFi sigurnosnog protokola (Šikuljak, 2017) i traženje duplikata u kodu pomoću AST (Bebić, 2017). Kod oba su referentna rešenja unapređena dodavanjem jednog ili više koncepata, i posmatrano je kako i koliko to utiče na rezultate.
+
+Problem nastaje kada vi imate ideju za projekat, a ona pokušava da bude negde između svega ovoga. Najčešće to ispadne između prve i druge kategorije, pa dobijete "primena jednog rešenja na isti taj problemski domen" - što kad se ovako već kaže vidite da nema mnogo smisla (ovde upadaju svi "primena ML na nešto" predlozi). Ukoliko već imate takav predlog, dobra ideja je da probate da ga "ugurate" u neki od ovih pomenutih kategorija.
+
+> **primer** : ako je predlog "primena ML na razlikovanje slika pasa i kaktusa" možete da sagledate  specifičnosti tog problemskog domena i vidite kako se te specifinosti mogu iskoristiti za unapređivanje vašeg rešenja.
+> Čitanjem literature shvatićete da su kaktusi (obično) zelene boje, a da psi (najčešće) nisu, te da jednostavno brojanje "zelenkastih" piksela može da da prilično dobre rezultate za vaš problem.
+> Time ste uspešno upali u ovu drugu kategoriju, iskoristivši computer vision principe (u najširem mogućem smislu) da rešite (prilično) specifičan problem. Kao dodatan bonus, možete to novo rešenje porediti sa pravim ML-ov (recimo istreniranom CNN) i porediti ta dva rešenja.
+
+Naravno, postoje veoma dobri projekti koji ne upadaju ni u jednu od ovih kategorija, naročito oni koji se bave obskurnim oblastima računarstva, ali ako već imate maglovitu ideju / interesantnu oblast kojom želite da se bavite, probajte da je sagledate kroz jednu od ovih grupa.
