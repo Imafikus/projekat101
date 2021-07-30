@@ -12,13 +12,13 @@ Vaš projekat će u 99% slučajeva biti eksperimentalnog tipa, iako to možda ni
 
 Vaš eksperiment će biti program uz pomoć kojeg ćete na neki način izmeriti i proveriti vašu hipotezu, što je sledeća vrlo bitna stvar.
 
-#### Hipoteza
+### Hipoteza
 
 Hipoteza je zapravo srž vašeg projekta. To je nekakvo tvrđenje koje pokušavate da pokažete eksperimentalnim putem (tj. programom).  
 
 Hipoteza mora da bude zasnovana na nekim činjenicama, ne može samo "da vam padne sa neba". Potrebno je da izložite zbog čega mislite da će vaša hipoteza važiti (odnosno neće).
 
-#### Reference
+### Reference
 
 Da bi krenuli da se bavite nekim problem, prva stvar koju treba da uradite je da proverite da li se neko drugi pre vas nije bavio istim, ili možda nečim sličnim.  
 
@@ -34,7 +34,7 @@ Polaznici (a posebno novi polaznici) često mešaju pravljenje programa koji rad
 
 Možda zvuči grubo, ali ako je vama neka stvar nova, ne znači da ona nije opštepoznata i da ne postoji 1001 standardni način na koji se to što hoćete radi. Tako da, ako vam padne na pamet da predložite nekakav specifičan program za projekat, obavezno proverite da li to već postoji (spoiler alert: verovatno postoji).
 
-Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istraživačku komponentu koja je potrebna da bi bili naučni projekat.
+Nemojte da vas ovo obeshrabri od pravljenja takvih programa. Oni su fenomenalan način da se nauče nove stvari, samo nemaju istraživačku komponentu koja je potrebna da bi bili petnički projekat.
 
 ### *"Ja bih da radim neki ML"*
 
@@ -74,7 +74,7 @@ Pre nego što uopšte pipnete programski kod, trebalo bi da isplanirate šta će
 
 Za početak, bar da vidite ugrubo od kojih logičkih celina će da se sastoji vaš projekat i šta vam eventualno treba od *third-party* biblioteka.
 
-Kad odradite ovo, tek onda treba da gledate u kom programskom jeziku je najbolje raditi projekat (obično u kom god najviše radite).
+Kad odradite ovo, tek onda treba da gledate u kom programskom jeziku je najbolje raditi projekat. Najčešće će to biti jezik koji već dobro poznajete, sem u retkim slučajevima, gde iz kog god razloga, morate da koristite specifičan jezik / framework / nešto treće.
 
 ### Odabir programskog jezika
 
@@ -100,22 +100,22 @@ Takođe, ako postoji više verzija projekta koji vam daju rezultate, veoma je va
 
 **REZULTATE NIKAD NEMOJTE DA ČUVATE SAMO LOKALNO**
 
-Dakle, neki Google Drive, GitHub, bilo koji cloud hosting. Niste svesni koliko je teško iskopati rezultate kada se za par nedelja vratite projektu. Ili, ako vam na random crkne hard. 
+Dakle, neki Google Drive, GitHub, bilo koji cloud hosting. Niste svesni koliko je teško iskopati rezultate kada se za par nedelja vratite projektu. Ili, ako vam na random crkne hard disk na računaru.
 
-Rezultate čuvajte u lepom formatu, sa lepim imenima i kategorizovane tako da vam je, kada se za par nedelja od završetka letnjeg seminara setite da bi trebalo da nastavite da radite na projektu, bilo lako da odmah nađete rezultate i vidite šta vam koji rezultati pokazuju.
+Rezultate čuvajte u lepom formatu, sa lepim imenima i kategorizovane tako da vam je, kada se za par nedelja od završetka letnjeg seminara i setite da bi trebalo da nastavite da radite na projektu, bilo lako da odmah nađete rezultate i vidite šta vam koji rezultati pokazuju.
 
 Još jedna stvar zbog koje je bitna kategorizacija je da bi bili sigurni koji rezultati su oni koje ćete konačno prikazati u radu. Projekat koji nema validne rezultate nije projekat.
 
 Nikako nemojte čuvati samo grafike, ili slike, ili šta god. **Uvek čuvajte sirove podatke**. Grafici koje vi nacrtate i stavite u vašu verziju rada koju šaljete na reviziju se uglavnom ne koriste kada je vreme da se rad spremi i "spakuje" u petničku svesku, nego će vam se skoro uvek samo tražiti sirovi podaci. Ovo se radi kako bi se napravili grafici boljeg kvaliteta od onih koje ste vi stavili (uglavnom je potreban veći *dpi* da bi to izgledalo lepo kad se odštampa).  
 Druga problematična stvar kod nečuvanja sirovih podataka je što onda dolazite u situaciju da neko vama treba da veruje na reč da je vama slika koju ste stavili merodavna i da zaista prikazuje dobijeni rezultat.
 
-## Programiranje - Tricks & Tips
+## Programiranje - Tips & Tricks
 
 Kako je programiranje ono što vama suštinski uzima najveći deo vremena kod izrade projekta, ovaj deo će biti posvećen tome da vam pokaže i ukaže na neke stvari koje će vaš programerski život učiniti dosta srećnijim, a i lakšim.
 
 ### Source Control
 
-Prva stvar o kojoj pričamo je *Source Control*. Verujem da su neki od vas već krenuli da uzdišu, ali ovo je jedan od krucijalnih alata koji se koristi svuda, pa ne postoji neki racionalan razlog da ga i vi ne koristite. Ako planirate da se profesionalno bavite bilo čim što ima veze sa programiranjem, **podrazumevaće** se da znate ovo.
+Prva stvar o kojoj pričamo je *Source Control*. Verujem da su neki od vas već krenuli da uzdišu, ali ovo je jedan od krucijalnih alata koji se koristi svuda, pa ne postoji neki racionalan razlog da ga i vi ne koristite. Ako planirate da se profesionalno bavite bilo čim što ima veze sa programiranjem, **podrazumevaće se** da znate ovo.
 
 #### Kako radi source control
 
@@ -124,7 +124,7 @@ Još jedna bitna stvar, ti *snapshotovi* se čuvaju i kod vas i na nekom serveru
 
 Možda niste svesni, ali gomila vas već koristi "primitivni" *source control* koji podrazumeva da vi vaš kod snimite na neki fleš, ili pošaljete sebi na mejl ili kao poruku na fejsu / vocapu / nečem trećem. Ovo radite upravo jer želite da sačuvate nekakve verzije vašeg programa.
 
-*Source control* samo olakšava ovo. Takođe, još jedna bitna prednost je što možete čuvati i sve dobijene rezultate, i čak i da se desi da zagubite starije rezultate ili vam se zapali komp recimo, uvek možete da pristupite svim *commitovanim* verzijama.
+*Source control* samo olakšava ovo. Takođe, još jedna bitna prednost je što možete čuvati i sve dobijene rezultate, i čak i da se desi da zagubite starije rezultate ili vam se zapali komp recimo, uvek možete da pristupite svim verzijama koje ste sačuvali.
 
 #### Git
 
@@ -142,9 +142,9 @@ Druga bitna stvar, koja uopšte nema veze sa projektom. Ako budete tražili posa
 
 Stvari o kojima ćemo pričati ovde vas skoro sigurno smaraju, i gomila vas misli da su gubljenje vremena. Ja ću da pokušam da vam objasnim zašto to ipak nije tačno.
 
-Dakle, rešili ste šta radite za projekat, imate plan, i došlo je vreme za pisanje koda. Baš zbog ovog pisanja koda propadne lep broj projekata. Ispod su kao mala poglavlja date neke česte greške koje se dešavaju u ovom procesu.
+Dakle, rešili ste šta radite za projekat, imate plan, i došlo je vreme za pisanje koda. Baš zbog ovog pisanja koda propadne lep broj projekata. Ispod su, kao mala poglavlja, date neke česte greške koje se dešavaju u ovom procesu.
 
-#### Imenovanje promenljivih
+### Imenovanje promenljivih
 
 Koliko god vama ovo banalno zvučalo, dobro imenovanje unutar koda je jedna od najvažnijih stvari koje treba da naučite.  
 
@@ -154,14 +154,14 @@ Takođe, verovatno će vam u nekom trenutku trebati pomooć oko debagovanja, a t
 
 Razlika između:
 
-```
+```python
 cc = s.c i currentCoef = simulation.coef
 
 ili:
 
 d(): i drawScreen():
 
-````
+```
 
 **je ogromna**
 
@@ -171,19 +171,20 @@ Pretpostavimo sledeću situaciju: Bili ste na letnjem seminaru, odmah posle ste 
 
 Takođe, nečitljiv kod vam niko neće debagovati, jer je samo potrebno previše vremena da bi se uopšte shvatilo šta se događa u kodu, da bi tek onda moglo i nešto da se izdebaguje.
 
-#### Nekorišćenje pomoćnih funkcija
+### Nekorišćenje pomoćnih funkcija
 
 Česta stvar na koju se nailazi kada polaznici pitaju za pomoć je projekat koji se sastoji iz par ogromnih funkcija ili, još gore, od jednog fajla sa jednom jedinom funkcijom.
 
-Zašto je ovo problem? - Kod koji ćete pisati za projekat uglavnom je dosta složeniji od koda za, recimo izračuvananje površine trougla, i sigurno se sastoji iz više logičkih celina. Svaka logička celina ima jedan specifičan zadatak koji treba da uradi, predstavoću to na primeru obrade slike.
+Zašto je ovo problem? - Kod koji ćete pisati za projekat uglavnom je dosta složeniji od koda za, recimo izračuvananje površine trougla, i sigurno se sastoji iz više logičkih celina. Svaka logička celina ima jedan specifičan zadatak koji treba da uradi, predstaviću to na primeru obrade slike.
 
 Hoćemo da učitamo sliku, da obojimo sve crne piksele u belo, da rotiramo sliku, i da na kraju sliku prebacimo u grayscale. Ovde odmah primećujemo par odvojenih logičkih celina:
+
 - Učitavanje slike
 - Pretvaranje crnih piksela u bele
 - Rotiranje slike
 - Prebacivanje slike u grayscale
 
-Česta situacija na koju se nailazi je da je ceo ovaj logički tok zabijen u jednu funkciju. Ovo je izuzetno loša praksa jer vam na više načina otežava život:
+Česta situacija na koju se nailazi je da je ceo ovaj logički tok stavljen u jednu funkciju. Ovo je izuzetno loša praksa jer vam na više načina otežava život:
 
 - Funkcija je ogromna i teško je ispratiti šta se dešava
 - Nešto ne radi, ne znate što, i treba da degabujete
@@ -192,16 +193,17 @@ Upravo zbog ove druge tačke vas toliko smaramo kad vidimo ovakve stvari. Kada i
 
 **Zapamtite: Funkcija treba da radi samo jednu, tačno određenu stvar!**
 
-#### Monolitan kod 
+### Monolitan kod
 
 Ovo se nadovezuje, a često i ide u paru sa ovim iznad. Recimo da vam program ima više većih logičkih celina. Na primer treba da iscrtate nešto na obrađenoj slici i da onda sa te slike isčitate piksele i da gledate neku raspodelu ili da tražite neku korelaciju, jasno se vide 3 celine:
+
 - Učitavanje i obrada slike
-- Iscrtavanje poligona 
+- Iscrtavanje poligona
 - Statistička obrada
 
 Najgora stvar koju možete da uradite je da sve, kao i kod tačke gore, zabijete u jedan fajl. Što više vežih logičkih celina imate to će vam složenost debagovanja rasti, i ako ne podelite kod na vreme, nećete ga izdebagovati nikad.
 
-#### Koristite papir
+### Koristite papir
 
 ~~Mnogi~~ Svi relativno novi programeri bi odmah da sednu i da kucaju. I to je donekle opravdano, ali ne i dobro, posebno ako radite na nečemu što ima više od 100 linija koda.
 
@@ -213,6 +215,26 @@ Još jedna super stvar kod ovoga je što se odlično skalira, tj. kako ste napra
 
 Sa ovim treba stati kada vidite da je sva usitnjenja logika koju ste upisali dovoljno prosta da stane u funkciju koja će raditi samo to.
 
-Kul programi koji vam mogu koristiti za pravljenje dijagrama: 
+Kul programi koji vam mogu koristiti za pravljenje dijagrama:
+
 - [Draw.io](https://www.draw.io/)
 - [Lucidchart](https://www.lucidchart.com/)
+
+### Koristite nekakav *project tracking* alat
+
+Seli ste, smislili projekat, podelili ga na celine, smislili zadatke i sad treba da krenete da radite. Ono što će vam mnogo olakšati život u ovom trenutku je nekakav alat koji će pratiti te vaše zadatke i preko kog, ako ste ažurni, ćete uvek znati koliko stvari ste završili i koliko stvari vam je ostalo.
+
+Svi alati za praćenje rade po sličnom principu, gde imate par nekakvih kategorija u koje onda upisujete zadatke koje treba da uradite. Nekakav najprostiji primer te podele bi bio projekat gde imate sledeće kategorije:
+
+- Treba detaljno da se smisli šta da se uradi
+- Treba da krene da se radi
+- Trenutno se radi na tome
+- Urađeno
+
+Zašto je ovo dobro? - U svakom trenutku znate stanje svih zadataka koji treba da se odrade i u svakom trenutku vam je jasno vidljivo šta je sledeće što treba da se odradi i šta je najbitnije. Tako da ne gubite vreme na razmišljanje o tome šta treba sledeće i možete mnogo lakše da prioritizujete stvari.
+
+Neki od tipičnih alata koji se koriste za ove stvari:
+
+- [Jira](https://www.atlassian.com/software/jira)
+- [Trello](https://trello.com/)
+- [GitLab Issue Boards](https://docs.gitlab.com/ee/user/project/issue_board.html)
